@@ -9,6 +9,7 @@ docker tag transfer-react:latest ellr2/transfer-react:latest
 docker push ellr2/transfer-react:latest
 echo "Done ---client---!"
 
+cd ..
 cd WebApiTransfer
 docker build -t transfer-api .
 docker tag transfer-api:latest ellr2/transfer-api:latest

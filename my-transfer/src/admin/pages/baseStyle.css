@@ -1,0 +1,14 @@
+input, select, textarea {
+    background-color: var(--body_background_components) !important;
+    color: var(--body_color_components) !important;
+}
+
+select{
+    background-color: var(--body_background_components) !important;
+    border: 0 !important;
+}
+
+.table th, .table td {
+    background-color: var(--body_background_components) !important;
+    color: var(--body_color_components) !important;
+}

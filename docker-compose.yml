@@ -1,0 +1,45 @@
+version: "3.9"
+
+networks:
+  transferNet:
+    driver: bridge
+
+services:
+  postgresServerDb:
+    image: postgres:18.1
+    container_name: postgres_db
+    restart: always
+    ports:
+      - "5022:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ${VOLUME_POSTGRES}
+    networks:
+      - transferNet
+    
+  api:
+    #build: ./WebApiTransfer
+    image: ellr2/transfer-api:latest
+    container_name: transfer_api
+    volumes:
+      - ${VOLUME_SERVERAPI}
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__DefaultConnection: Host=postgresServerDb;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+    ports:
+      - "5898:8080"
+    depends_on:
+      - postgresServerDb
+    networks:
+      - transferNet
+
+  front:
+    image: ellr2/transfer-react:latest
+    #build: 
+    #  context: ./my-transfer-ts
+    container_name: react_front
+    ports:
+      - "3987:80"

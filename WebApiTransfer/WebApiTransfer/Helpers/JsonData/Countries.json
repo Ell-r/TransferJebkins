@@ -1,0 +1,26 @@
+﻿[
+  {
+    "Name": "Україна",
+    "Code": "UA",
+    "Slug": "ukraine",
+    "Image": "ukraine.webp"
+  },
+  {
+    "Name": "Польща",
+    "Code": "PL",
+    "Slug": "poland",
+    "Image": "poland.webp"
+  },
+  {
+    "Name": "Англія",
+    "Code": "EN",
+    "Slug": "england",
+    "Image": "england.webp"
+  },
+  {
+    "Name": "Нова Зеландія",
+    "Code": "NZ",
+    "Slug": "new_zealand",
+    "Image": "new_zealand.webp"
+  }
+]

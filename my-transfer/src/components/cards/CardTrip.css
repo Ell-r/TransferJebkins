@@ -1,0 +1,11 @@
+.trip-card{
+    background-color: var(--card_background);
+    color: var(--card_color);
+}
+
+button{
+    background-color: var(--card_button_background) !important;
+    color: var(--card_button_color) !important;
+    border: 0 !important;
+}
+

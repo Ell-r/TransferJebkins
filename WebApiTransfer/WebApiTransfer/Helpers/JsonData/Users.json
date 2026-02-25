@@ -1,0 +1,23 @@
+[
+  {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Image: "https://randomuser.me/api/por"
+    "Email": "JohnJoe123@gmail.com",
+    "Password": "Password123!"
+  },
+  {
+    "FirstName": "Anne",
+    "LastName": "Joy",
+    "Image": "default.webp",
+    "Email": "thebeastemailef23@gmail.com",
+    "Password": "qwertyuiop"
+  },
+  {
+    "FirstName": "Jack",
+    "LastName": "Doe",
+    "Image": "default.webp",
+    "Email": "ofewi093mn@gmail.com",
+    "Password": "Lk43fds#"
+  }
+]

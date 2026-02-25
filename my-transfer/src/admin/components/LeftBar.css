@@ -1,0 +1,24 @@
+.admin-sidebar{
+    background-color: var(--panel_background) !important;
+    height: 100vh;
+    padding: 10px 3rem 3rem 2rem;
+}
+
+.admin-panel {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.admin-panel a {
+    text-decoration: none;
+    color: var(--panel_color) !important;
+    font-weight: 500;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 20px;
+}

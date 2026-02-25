@@ -1,0 +1,22 @@
+[
+  {
+    "Code": "PS303",
+    "FromCityId": 2,
+    "ToCityId": 3,
+    "DepartureTime": "2025-07-01T08:00:00Z",
+    "ArrivalTime": "2025-07-01T10:00:00Z",
+    "SeatsTotal": 150,
+    "SeatsAvailable": 150,
+    "StatusId": 1
+  },
+  {
+    "Code": "PO203",
+    "FromCityId": 3,
+    "ToCityId": 4,
+    "DepartureTime": "2025-07-01T08:00:00Z",
+    "ArrivalTime": "2025-02-01T12:00:00Z",
+    "SeatsTotal": 50,
+    "SeatsAvailable": 50,
+    "StatusId": 6
+  }
+]

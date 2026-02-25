@@ -1,0 +1,12 @@
+html, body{
+    color: var(--body_color);
+}
+
+button{
+    color: var(--body_color) !important;
+    background-color: var(--body_background_components) !important;
+}
+
+a{
+    text-decoration: none !important;
+}

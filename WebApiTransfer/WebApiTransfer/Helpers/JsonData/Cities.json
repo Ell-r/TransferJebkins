@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Київ",
+    "Slug": "київ",
+    "Description": "<p>Столиця України</p>",
+    "CountryId": 1,
+    "Image": "kyiv.webp"
+  },
+  {
+    "Name": "Варшава",
+    "Slug": "варшава",
+    "Description": "<p>Столиця Польщі</p>",
+    "CountryId": 2,
+    "Image": "warshav.webp"
+  },
+  {
+    "Name": "Лондон",
+    "Slug": "лондон",
+    "Description": "<p>Столиця Англії</p>",
+    "CountryId": 3,
+    "Image": "london.webp"
+  },
+  {
+    "Name": "Веллінгтон",
+    "Slug": "веллінгтон",
+    "Description": "<p>Столиця Нової Зеландії</p>",
+    "CountryId": 4,
+    "Image": "wellington.webp"
+  }
+]

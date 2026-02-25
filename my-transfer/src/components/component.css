@@ -1,0 +1,8 @@
+input{
+    background-color: var(--body_background_components) !important;
+    border: 1px solid var(--body_background_components) !important;
+}
+
+button{
+    border: 1px solid var(--body_background_components) !important;
+}

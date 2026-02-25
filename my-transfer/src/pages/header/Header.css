@@ -1,0 +1,18 @@
+.header{
+    background-color: var(--header_background);
+    padding: 15px;
+    color: var(--header_color);
+}
+
+.header a{
+    text-decoration: none;
+    color: var(--header_color);
+}
+
+.switch-button{
+    background-color: var(--body_background_components);
+    color: var(--body_color);
+    width: 40px;
+    border-radius: 10px;
+}
+

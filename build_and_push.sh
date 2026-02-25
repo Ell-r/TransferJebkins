@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e  # зупиняє скрипт при помилці
 
-docker login -u ellr2
+echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
 cd my-transfer
 docker build -t transfer-react .

@@ -1,16 +1,16 @@
 #!/bin/bash
 set -e  # зупиняє скрипт при помилці
 
-cd my-transfer-ts
+cd my-transfer
 docker build -t transfer-react .
-docker tag transfer-react:latest novakvova/transfer-react:latest
-docker push novakvova/transfer-react:latest
+docker tag transfer-react:latest ellr2/transfer-react:latest
+docker push ellr2/transfer-react:latest
 echo "Done ---client---!"
 
 cd ..\WebApiTransfer
 docker build -t transfer-api .
-docker tag transfer-api:latest novakvova/transfer-api:latest
-docker push novakvova/transfer-api:latest
+docker tag transfer-api:latest ellr2/transfer-api:latest
+docker push ellr2/transfer-api:latest
 
 echo "Done ---api---!"
 

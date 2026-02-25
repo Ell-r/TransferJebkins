@@ -17,4 +17,3 @@ docker push ellr2/transfer-api:latest
 
 echo "Done ---api---!"
 
-read -p "Press any key to exit..."
